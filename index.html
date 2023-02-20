@@ -5,20 +5,1271 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="GREENERY, стабилизированный мох, вертикальное озеленение">
+   <meta name="description" content="Вертикальное озеленение стабилизированным мхом">
+   <meta property="og:url" content="https://devexlein.github.io/greenery/">
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="GREENERY Вертикальное озеленение стабилизированным мхом">
+   <meta property="og:description"
+      content="Стены, картины из стабилилизированного мха для квартир, офисов и других помещений без сложного ухода">
    <title>GREENERY Композиции и декор из мха</title>
-   <link rel="icon" href="./img/favicons/favicon.ico" type="image/svg+xml">
+
+   <link rel="icon" href="./favicon.ico" sizes="any"><!-- 32×32 -->
+   <link rel="icon" href="./img/favicons/favicon.svg" type="image/svg+xml">
+   <!-- <link rel="icon" href="./img/favicons/favicon-large.svg" type="image/svg+xml"> -->
+   <link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon-32.png" sizes="60x60">
+   <link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png" sizes="180x180"><!-- 180×180 -->
+   <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#44775f">
+
+   <meta name="msapplication-TileColor" content="#cdffcd">
+   <meta name="msapplication-square70x70logo" content="…/mstile-70x70.png">
+   <meta name="msapplication-square150x150logo" content="…/mstile-150x150.png">
+   <meta name="msapplication-wide310x150logo" content="…/mstile-310x310.png">
+   <meta name="application-name" content="GREENERY">
+   <meta name="msapplication-config" content="…/browserconfig.xml">
+
+   <link rel="manifest" href="./manifest.webmanifest">
+   <meta name="theme-color" content="#44775f">
+
+   <link rel="stylesheet" href="./css/iconsfont.css">
+   <link rel="stylesheet" href="./css/swiper-bundle.min.css">
    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
    <div class="wrapper">
-      <header class="header">
-         <div class="header__container">
-
+      <header id="open" class="header lock-padding">
+         <div id="close" class="header__container">
+            <div class="header__logo logo">
+               <img src="./img/logo.svg" alt="Логотип компании GREENERY" class="logo__image">
+               <p class="logo__description">Вертикальное озеленение стабилизированным мхом</p>
+            </div>
+            <div class="header__menu-burger">
+               <a href="#open" class="icon-menu"><span></span></a>
+               <a href="#close" class="close-icon-menu"></a>
+            </div>
+            <div class="header__socials socials">
+               <a href="http://wa.me/79684017002" target="_blank" class="socials__icon _icon-whatsapp"></a>
+               <a href="https://t.me/StenaIzMha_bot" target="_blank" class="socials__icon _icon-telegram"></a>
+               <a href="#" class="socials__icon _icon-vk"></a>
+            </div>
+            <div class="header__contacts contacts">
+               <a href="tel:+74994093152" class="contacts__phone">
+                  <div class="contacts__phone-icon _icon-phone"></div>
+                  <div class="contacts__phone-number">+7 (499) 409-31-52</div>
+               </a>
+               <a href="mailto:info@mygreenery.ru" class="contacts__email">
+                  <div class="contacts__email-icon _icon-email"></div>
+                  <div class="contacts__email-name">info@mygreenery.ru</div>
+               </a>
+            </div>
+            <div class="header__menu lock-padding">
+               <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                     <a data-goto=".started" href="#" class="header__menu-link">
+                        <img src="./img/logo.svg" alt="Логотип компании GREENERY">
+                     </a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".started__form" href="#" class="header__menu-link">Поделите своими пожеланиями</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".advantages" href="#" class="header__menu-link">4 причины заказать у нас</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".works" href="#" class="header__menu-link">Примеры наших работ</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".price" href="#" class="header__menu-link">Узнайте стоимость Вашей композиции</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".process" href="#" class="header__menu-link">Производство и монтаж</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".feedback" href="#" class="header__menu-link">О нас словами покупателей</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".showroom" href="#" class="header__menu-link">Карта</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a data-goto=".showroom__form" href="#" class="header__menu-link">Остались вопросы?</a>
+                  </li>
+               </ul>
+            </div>
          </div>
       </header>
       <main class="main">
-         <section class="showroom">
+         <section id="started" class="started">
+            <div class="started__container">
+               <div class="started__content">
+                  <div class="started__blur">
+                     <h1 class="started__title">Оживите свой интерьер стильной композицией</h1>
+                     <p class="started__subtitle">Стены<span>, картины</span> из стабилилизированного мха для квартир,
+                        офисов и
+                        других помещений без сложного ухода</p>
+                  </div>
+               </div>
+               <picture class="started__image">
+                  <source srcset="./img/started/started-bg_510x220.webp" type="image/webp">
+                  <img src="./img/started/started-bg_510x220.jpg"
+                     alt="Фото композиции из стабилизированного мха в интерьере">
+               </picture>
+               <div id="started__form" class="started__form form-box">
+                  <h4 class="form-box__subtitle">
+                     Поделитесь с дизайнерами своими пожеланиями и получите идеальный проект бесплатно
+                  </h4>
+                  <div class="form-box__body">
+                     <form id="free-project" class="form-box__form" method="POST" action="#">
+                        <div class="form-box__input form-box__input_changing">
+                           <input class="form-box__input-large" type="text" placeholder="Как к Вам обращаться?"
+                              name="name">
+                           <input class="form-box__input-small" type="text" placeholder="Ваше имя" name="name">
+                        </div>
+                        <div class="form-box__input">
+                           <input type="tel" class="form-box__phone" placeholder="Ваш телефон" name="tel" required>
+                        </div>
+                        <button type="submit" class="form-box__button button">Хочу увидеть</button>
+                        <p class="form-box__message">Пожалуйста, введите номер телефона в формате <span>+7 (555) 555
+                              5555</span></p>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="advantages" class="advantages">
+            <div class="advantages__container">
+               <h2 class="advantages__title title">4 причины заказать у нас</h2>
+               <div class="advantages__items">
+                  <div class="advantages__item card">
+                     <div class="card__image">
+                        <img src="./img/advantages/recommended.png" alt="Иконка нас рекомендуют">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Работаем <span>на результат</span></h3>
+                        <p class="card__text">Готовую композицию повторяем в точности <span>до
+                              95%</span></p>
+                     </div>
+                  </div>
+                  <div class="advantages__item card">
+                     <div class="card__image">
+                        <img src="./img/advantages/wide-range.png" alt="Иконка плашки со списком">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Даём широкий выбор</h3>
+                        <p class="card__text">5 видов мха, в палитре 30 цветов, все доступные способы
+                           доставки</p>
+                     </div>
+                  </div>
+                  <div class="advantages__item card">
+                     <div class="card__image">
+                        <img src="./img/advantages/guarantee.png" alt="Иконка плашки с галочкой">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Предоставляем гарантию</h3>
+                        <p class="card__text">По договору с момента монтажа Вы получаете гарантию
+                           <span>12 месяцев</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="advantages__item card">
+                     <div class="card__image">
+                        <img src="./img/advantages/worldwide-shipping.png" alt="Иконка Земли">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Доставляем <span>по миру</span></h3>
+                        <p class="card__text">Наши проекты есть в России, СНГ, Португалии, США, Франции
+                           и ОАЭ</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="works" class="works">
+            <div class="works__container">
+               <h2 class="works__title title">Примеры наших работ</h2>
+               <div class="works__tabs tabs">
+                  <ul class="tabs__list">
+                     <li class="tabs__item"><button class="tabs__btn tabs__btn_active"
+                           data-tabs-path="paintings">Картины</button></li>
+                     <li class="tabs__item"><button class="tabs__btn" data-tabs-path="walls">Стены</button></li>
+                     <li class="tabs__item"><button class="tabs__btn" data-tabs-path="logos">Логотипы</button></li>
+                     <li class="tabs__item"><button class="tabs__btn" data-tabs-path="other">Другое</button></li>
+                  </ul>
+
+                  <div class="tabs__body tabs__body_active" data-tabs-target="paintings">
+                     <div id="tab-paintings" class="tabs__content">
+                        <div class="tabs__buttons slider-buttons">
+                           <div class="tabs__btn-prev tabs__btn-prev_paintings swiper-button-prev _icon-arrow-left"
+                              aria-label="Назад"></div>
+                           <div class="tabs__btn-next tabs__btn-next_paintings swiper-button-next _icon-arrow-right"
+                              aria-label="Вперед"></div>
+                        </div>
+                        <div class="tabs__paintings-slider swiper">
+                           <div class="tabs__wrap swiper-wrapper">
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#painting-forest-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/paintings/painting-forest-960x640.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-forest-960x640.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-forest.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-forest.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/paintings/painting-forest.jpg" alt="Картина «Лесная»">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Картина «Лесная»</h3>
+                                       <p class="product-box__text">Тип озеленения: кочка, плоский, ягель – мхи
+                                          стабилизированные растения и декор</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#painting-wooden-backlight-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/paintings/painting-wooden-backlight-660x440.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-wooden-backlight-660x440.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-wooden-backlight.webp"
+                                             type="image/webp" media="(max-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-wooden-backlight.jpg"
+                                             type="image/jpeg" media="(max-width:575px)">
+                                          <img src="./img/works/paintings/painting-wooden-backlight.jpg"
+                                             alt="Картина деревянная с подсветкой">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Картина деревянная с подсветкой</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#painting-hexagon-forest-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/paintings/painting-hexagon-forest-960x640.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-hexagon-forest-960x640.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-hexagon-forest.webp"
+                                             type="image/webp" media="(max-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-hexagon-forest.jpg"
+                                             type="image/jpeg" media="(max-width:575px)">
+                                          <img src="./img/works/paintings/painting-hexagon-forest.jpg"
+                                             alt="Картина «Шестиугольник лесной»">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Картина «Лесная» - шестиугольник</h3>
+                                       <p class="product-box__text">Тип озеленения: кочка, плоский, ягель – мхи
+                                          стабилизированные растения и декор</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#painting-forest-2-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/paintings/painting-forest-2-2000x1333.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-forest-2-2000x1333.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-forest-2.webp"
+                                             type="image/webp" media="(max-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-forest-2.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/paintings/painting-forest-2.jpg"
+                                             alt="Картина «Лесная» №2">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Картина «Лесная» №2</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель, плоский, кочка царская
+                                          – мхи, папоротник и коряги</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#painting-5-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/paintings/painting-5-3000x2000.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-5-3000x2000.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-5.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/paintings/painting-5.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/paintings/painting-5.jpg" alt="Картина №5">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Картина №5</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный, плоский, кочка
+                                          лесная – мхи, декор</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tabs__body" data-tabs-target="walls">
+                     <div id="tab-walls" class="tabs__content">
+                        <div class="tabs__buttons slider-buttons">
+                           <div class="tabs__btn-prev tabs__btn-prev_walls swiper-button-prev _icon-arrow-left"
+                              aria-label="Назад"></div>
+                           <div class="tabs__btn-next tabs__btn-next_walls swiper-button-next _icon-arrow-right"
+                              aria-label="Вперед"></div>
+                        </div>
+                        <div class="tabs__walls-slider swiper">
+                           <div class="tabs__wrap swiper-wrapper">
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#wall-performance-group-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/walls/wall-performance-group-1024x684.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-performance-group-1024x684.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-performance-group.webp"
+                                             type="image/webp" media="(max-width:575px)">
+                                          <source srcset="./img/works/walls/wall-performance-group.jpg"
+                                             type="image/jpeg" media="(max-width:575px)">
+                                          <img src="./img/works/walls/wall-performance-group.jpg"
+                                             alt="Стена-пано, Холдинг Performance Group">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Холдинг "Performance Group"</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#wall-mанго-telecom-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/walls/wall-mанго-telecom-950x633.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-mанго-telecom-950x633.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-mанго-telecom.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/walls/wall-mанго-telecom.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/walls/wall-mанго-telecom.jpg"
+                                             alt="Стена-пано, Компания Манго-телеком">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Компания "Манго-телеком"</h3>
+                                       <p class="product-box__text">Тип озеленения: королевский ягель</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#wall-ranhigs-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/walls/wall-ranhigs-690x462.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-ranhigs-690x462.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-ranhigs.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/walls/wall-ranhigs.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/walls/wall-ranhigs.jpg"
+                                             alt="Стена-пано, Школа управления РАНХиГС">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Школа управления РАНХиГС</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обычный
+                                          и королевский ягель</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#wall-office-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/walls/wall-office-600x400.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-office-600x400.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-office.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/walls/wall-office.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/walls/wall-office.jpg" alt="Стена-пано, офисная">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Офисная стена из мха</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный с подсветкой</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#wall-cottage-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/walls/wall-cottage-600x400.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-cottage-600x400.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/walls/wall-cottage.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/walls/wall-cottage.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/walls/wall-cottage.jpg" alt="Стена-пано, коттедж">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Стена из мха в коттедже</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tabs__body" data-tabs-target="logos">
+                     <div id="tab-logos" class="tabs__content">
+                        <div class="tabs__buttons slider-buttons">
+                           <div class="tabs__btn-prev tabs__btn-prev_logos swiper-button-prev _icon-arrow-left"
+                              aria-label="Назад"></div>
+                           <div class="tabs__btn-next tabs__btn-next_logos swiper-button-next _icon-arrow-right"
+                              aria-label="Вперед">
+                           </div>
+                        </div>
+                        <div class="tabs__logos-slider swiper">
+                           <div class="tabs__wrap swiper-wrapper">
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#logo-sber-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/logos/logo-sber-660x440.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-sber-660x440.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-sber.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/logos/logo-sber.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/logos/logo-sber.jpg" alt="Логотип, Банк Сбер">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Банк «Сбер»</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный с подсветкой
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#logo-indi-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/logos/logo-indi-855x570.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-indi-855x570.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-indi.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/logos/logo-indi.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/logos/logo-indi.jpg"
+                                             alt="Логотип, Сеть бьюти коворкинга INDI">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Сеть бьюти коворкинга «INDI»</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#logo-lab-space-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/logos/logo-lab-space-560x374.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-lab-space-560x374.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-lab-space.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/logos/logo-lab-space.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/logos/logo-lab-space.jpg"
+                                             alt="Логотип, Сеть студий фитнеса L.A.B. Space">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Сеть студий фитнеса «L.A.B. Space»</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#logo-hightech-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/logos/logo-hightech-970x647.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-hightech-970x647.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-hightech.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/logos/logo-hightech.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/logos/logo-hightech.jpg"
+                                             alt="Логотип, Группа компаний Hightech">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Группа компаний «Hightech»</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#logo-adidas-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/logos/logo-adidas-955x636.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-adidas-955x636.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/logos/logo-adidas.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/logos/logo-adidas.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/logos/logo-adidas.jpg" alt="Логотип, Компания Adidas">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Компания «Adidas»</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tabs__body" data-tabs-target="other">
+                     <div id="tab-other" class="tabs__content">
+                        <div class="tabs__buttons slider-buttons">
+                           <div class="tabs__btn-prev tabs__btn-prev_other swiper-button-prev _icon-arrow-left"
+                              aria-label="Назад"></div>
+                           <div class="tabs__btn-next tabs__btn-next_other swiper-button-next _icon-arrow-right"
+                              aria-label="Вперед">
+                           </div>
+                        </div>
+                        <div class="tabs__other-slider swiper">
+                           <div class="tabs__wrap swiper-wrapper">
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#decor-map-of-russia-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/other/decor-map-of-russia-660x440.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/other/decor-map-of-russia-660x440.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/other/decor-map-of-russia.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/other/decor-map-of-russia.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/other/decor-map-of-russia.jpg" alt="Декор Карта России">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Декор «Карта России»</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#phone-stand-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/other/phone-stand-880x590.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/other/phone-stand-880x590.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/other/phone-stand.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/other/phone-stand.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/other/phone-stand.jpg" alt="Подставка под телефон">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Подставка под телефон</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#wall-clock-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/other/wall-clock-455x303.webp" type="image/webp"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/other/wall-clock-455x303.jpg" type="image/jpeg"
+                                             media="(min-width:575px)">
+                                          <source srcset="./img/works/other/wall-clock.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/other/wall-clock.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/other/wall-clock.jpg" alt="Часы настенные с текстом">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Часы настенные с текстом</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card product-box">
+                                    <a href="#decor-floating-molecule-illuminated-popup"
+                                       class="product-box__image popup-link">
+                                       <picture>
+                                          <source
+                                             srcset="./img/works/other/decor-floating-molecule-illuminated-660x440.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source
+                                             srcset="./img/works/other/decor-floating-molecule-illuminated-660x440.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/other/decor-floating-molecule-illuminated.webp"
+                                             type="image/webp" media="(max-width:575px)">
+                                          <source srcset="./img/works/other/decor-floating-molecule-illuminated.jpg"
+                                             type="image/jpeg" media="(max-width:575px)">
+                                          <img src="./img/works/other/decor-floating-molecule-illuminated.jpg"
+                                             alt="Декор с подсветкой Парящая молекула">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title">Декор с подсветкой «Парящая молекула»</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tabs__slide swiper-slide">
+                                 <div class="tabs__card tabs__card_big product-box">
+                                    <a href="#decor-wooden-inserts-popup" class="product-box__image popup-link">
+                                       <picture>
+                                          <source srcset="./img/works/other/decor-wooden-inserts-380x254.webp"
+                                             type="image/webp" media="(min-width:575px)">
+                                          <source srcset="./img/works/other/decor-wooden-inserts-380x254.jpg"
+                                             type="image/jpeg" media="(min-width:575px)">
+                                          <source srcset="./img/works/other/decor-wooden-inserts.webp" type="image/webp"
+                                             media="(max-width:575px)">
+                                          <source srcset="./img/works/other/decor-wooden-inserts.jpg" type="image/jpeg"
+                                             media="(max-width:575px)">
+                                          <img src="./img/works/other/decor-wooden-inserts.jpg"
+                                             alt="Декор с деревянными вставками">
+                                       </picture>
+                                    </a>
+                                    <div class="product-box__body">
+                                       <h3 class="product-box__title ">Декор со вставками - дерево</h3>
+                                       <p class="product-box__text">Тип озеленения: ягель обыкновенный</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="price" class="price">
+            <div class="price__container">
+               <h2 class="price__title title">Узнайте стоимость Вашей композиции</h2>
+               <div class="price__form form-box">
+                  <h3 class="form-box__title">Узнайте стоимость Вашей композиции</h3>
+                  <h4 class="form-box__subtitle">
+                     Что хотите видеть в композиции? Можно выбрать несколько вариантов.
+                  </h4>
+                  <form id="cost-composition" class="form-box__form" method="POST" action="#">
+                     <div class="price__planting-material form-box__checkbox checkbox">
+                        <div class="checkbox__item checkbox__item_1">
+                           <label class="checkbox__label">
+                              <input type="checkbox" value="1" name="plants" class="checkbox__real-input">
+                              <span class="checkbox__custom-input"></span>
+                              <span class="checkbox__label-text">Мох</span>
+                           </label>
+                        </div>
+                        <div class="checkbox__item checkbox__item_2">
+                           <label class="checkbox__label">
+                              <input type="checkbox" value="2" name="plants" class="checkbox__real-input">
+                              <span class="checkbox__custom-input"></span>
+                              <span class="checkbox__label-text">Стабилизированные растения</span>
+                           </label>
+                        </div>
+                        <div class="checkbox__item checkbox__item_3">
+                           <label class="checkbox__label">
+                              <input type="checkbox" value="3" name="plants" class="checkbox__real-input">
+                              <span class="checkbox__custom-input"></span>
+                              <span class="checkbox__label-text">Дерево</span>
+                           </label>
+                        </div>
+                        <div class="checkbox__item checkbox__item_4">
+                           <label class="checkbox__label">
+                              <input type="checkbox" value="4" name="plants" class="checkbox__real-input">
+                              <span class="checkbox__custom-input"></span>
+                              <span class="checkbox__label-text">Искусственные растения</span>
+                           </label>
+                        </div>
+                     </div>
+                     <div class="form-box__input form-box__input_wide">
+                        <input type="text" placeholder="Какая примерная площадь?" name="square">
+                     </div>
+                     <div class="form-box__input form-box__input_wide">
+                        <textarea placeholder="Комментарий" name="comment"></textarea>
+                     </div>
+                     <div class="form-box__wrap">
+                        <div class="form-box__input">
+                           <input class="form-box__input-large" type="text" placeholder="Как к Вам обращаться?"
+                              name="name">
+                           <input class="form-box__input-small" type="text" placeholder="Ваше имя" name="name">
+                        </div>
+                        <div class="form-box__input">
+                           <input type="tel" class="form-box__phone" placeholder="Ваш телефон" name="tel" required>
+                        </div>
+                     </div>
+                     <button type="submit" class="form-box__button button">Отправить</button>
+                     <p class="form-box__message">Пожалуйста, введите номер телефона в формате <span>+7 (555) 555
+                           5555</span>
+                     </p>
+                  </form>
+               </div>
+            </div>
+         </section>
+         <section id="products" class="products">
+            <div class="products__container">
+               <h2 class="products__title title">Виды работ и стоимость</h2>
+               <div class="products__buttons slider-buttons">
+                  <div class="products__btn-prev swiper-button-prev _icon-arrow-left" aria-label="Назад"></div>
+                  <div class="products__btn-next swiper-button-next _icon-arrow-right" aria-label="Вперед"></div>
+               </div>
+               <div class="products__slider swiper">
+                  <div class="products__wrapper swiper-wrapper">
+                     <div class="products__slide swiper-slide">
+                        <div class="products__item product-box">
+                           <div class="product-box__gallery">
+                              <div class="product-box__wrap-image product-box__wrap-image_1">
+                                 <picture>
+                                    <source srcset="./img/products/wall-green_2180x3145.webp" type="image/webp"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/wall-green_2180x3145.jpg" type="image/jpeg"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/wall-green_250x360.webp" type="image/webp"
+                                       media="(max-width:575px)">
+                                    <source srcset="./img/products/wall-green_250x360.jpg" type="image/jpeg"
+                                       media="(max-width:575px)">
+                                    <img src="./img/products/wall-green_250x360.jpg"
+                                       alt="Фото готовых работ (декор стены однотонный)">
+                                 </picture>
+                              </div>
+                              <div class="product-box__wrap-image product-box__wrap-image_2">
+                                 <picture>
+                                    <source srcset="./img/products/wall-first_2430x3200.webp" type="image/webp"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/wall-first_2430x3200.jpg" type="image/jpeg"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/wall-first_300x395.webp" type="image/webp"
+                                       media="(max-width:575px)">
+                                    <source srcset="./img/products/wall-first_300x395.jpg" type="image/jpeg"
+                                       media="(max-width:575px)">
+                                    <img src="./img/products/wall-first_300x395.jpg"
+                                       alt="Фото готовых работ (стена двухцветная с номером)">
+                                 </picture>
+                              </div>
+                              <div class="product-box__decor product-box__decor_1"></div>
+                              <div class="product-box__decor product-box__decor_2"></div>
+                           </div>
+                           <div class="product-box__body">
+                              <h3 class="product-box__title">Cтены</h3>
+                           </div>
+                           <a href="#application-popup"
+                              onClick="document.getElementById('form_name').setAttribute('value', 'walls');"
+                              class="product-box__link button popup-link">от 5500₽ за м²</a>
+                        </div>
+                     </div>
+                     <div class="products__slide swiper-slide">
+                        <div class="products__item product-box">
+                           <div class="product-box__gallery">
+                              <div class="product-box__wrap-image product-box__wrap-image_3">
+                                 <picture>
+                                    <source srcset="./img/products/painting-5_2005x3715.webp" type="image/webp"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/painting-5_2005x3715.jpg" type="image/jpeg"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/painting-5_300x555.webp" type="image/webp"
+                                       media="(max-width:575px)">
+                                    <source srcset="./img/products/painting-5_300x555.jpg" type="image/jpeg"
+                                       media="(max-width:575px)">
+                                    <img src="./img/products/painting-5_300x555.jpg"
+                                       alt="Фото готовых работ (фитокартина Лесная №5)">
+                                 </picture>
+                              </div>
+                              <div class="product-box__wrap-image product-box__wrap-image_4">
+                                 <picture>
+                                    <source srcset="./img/products/painting-square_245x245.webp" type="image/webp"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/painting-square_245x245.jpg" type="image/jpeg"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/painting-square_120x120.webp" type="image/webp"
+                                       media="(max-width:575px)">
+                                    <source srcset="./img/products/painting-square_120x120.jpg" type="image/jpeg"
+                                       media="(max-width:575px)">
+                                    <img src="./img/products/painting-square_120x120.jpg"
+                                       alt="Фото готовых работ (фитокартины и фитопанно)">
+                                 </picture>
+                              </div>
+                              <div class="product-box__wrap-image product-box__wrap-image_5">
+                                 <picture>
+                                    <source srcset="./img/products/painting-wooden-inserts_250x320.webp"
+                                       type="image/webp" media="(min-width:575px)">
+                                    <source srcset="./img/products/painting-wooden-inserts_250x320.jpg"
+                                       type="image/jpeg" media="(min-width:575px)">
+                                    <source srcset="./img/products/painting-wooden-inserts_90x115.webp"
+                                       type="image/webp" media="(max-width:575px)">
+                                    <source srcset="./img/products/painting-wooden-inserts_90x115.jpg" type="image/jpeg"
+                                       media="(max-width:575px)">
+                                    <img src="./img/products/painting-wooden-inserts_90x115.jpg"
+                                       alt="Фото готовых работ (фитокартины и фитопанно)">
+                                 </picture>
+                              </div>
+                              <div class="product-box__decor product-box__decor_3"></div>
+                           </div>
+                           <div class="product-box__body">
+                              <h3 class="product-box__title">Фотокартины <span>и фотопанно</span></h3>
+                           </div>
+                           <a href="#application-popup"
+                              onClick="document.getElementById('form_name').setAttribute('value', 'paintings');"
+                              class="product-box__link button popup-link">от 7000₽ за м²</a>
+                        </div>
+                     </div>
+                     <div class="products__slide swiper-slide">
+                        <div class="products__item product-box">
+                           <div class="product-box__gallery">
+                              <div class="product-box__wrap-image product-box__wrap-image_6">
+                                 <picture>
+                                    <source srcset="./img/products/logo-adidas-935x700.webp" type="image/webp"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/logo-adidas-935x700.jpg" type="image/jpeg"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/logo-adidas-280x110.webp" type="image/webp"
+                                       media="(max-width:575px)">
+                                    <source srcset="./img/products/logo-adidas-280x110.jpg" type="image/jpeg"
+                                       media="(max-width:575px)">
+                                    <img src="./img/products/logo-adidas-280x110.jpg"
+                                       alt="Фото готовых работ (логотип компании Adidas)">
+                                 </picture>
+                              </div>
+                              <div class="product-box__wrap-image product-box__wrap-image_7">
+                                 <picture>
+                                    <source srcset="./img/products/logo-medesthetic_1350x2440.webp" type="image/webp"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/logo-medesthetic_1350x2440.jpg" type="image/jpeg"
+                                       media="(min-width:575px)">
+                                    <source srcset="./img/products/logo-medesthetic_250x452.webp" type="image/webp"
+                                       media="(max-width:575px)">
+                                    <source srcset="./img/products/logo-medesthetic_250x452.jpg" type="image/jpeg"
+                                       media="(max-width:575px)">
+                                    <img src="./img/products/logo-medesthetic_250x452.jpg"
+                                       alt="Фото готовых работ (логотипы и вывески)">
+                                 </picture>
+                              </div>
+                              <div class="product-box__decor product-box__decor_4"></div>
+                              <div class="product-box__decor product-box__decor_5"></div>
+                           </div>
+                           <div class="product-box__body">
+                              <h3 class="product-box__title">Логотипы <span>и вывески</span></h3>
+                           </div>
+                           <a href="#application-popup"
+                              onClick="document.getElementById('form_name').setAttribute('value', 'logos');"
+                              class="product-box__link button popup-link">от 9000₽ за м²</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="process" class="process">
+            <div class="process__container">
+               <h2 class="process__title title">От 1 дня на производство <span>и монтаж</span></h2>
+               <div class="process__items">
+                  <div class="process__item card">
+                     <div class="card__image">
+                        <img src="./img/process/customer-support.png" alt="Иконка службы поддержки клиентов">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Оставьте заявку на сайте или свяжитесь с нами любым удобным способом
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="process__item card">
+                     <div class="card__image card__image_wide">
+                        <img src="./img/process/design-project.png" alt="Иконка мокапа дизайн-проекта">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Бесплатно составим <span>3 дизайн-проекта</span>
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="process__item card">
+                     <div class="card__image">
+                        <img src="./img/process/measuring.png" alt="Иконка замерщика">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">При необходимости бесплатно приедем на объект
+                           для замера</h3>
+                     </div>
+                  </div>
+                  <div class="process__item card">
+                     <div class="card__image">
+                        <img src="./img/process/composition.png" alt="Иконка планшета с презентацией композиции">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Изготовим по дизайн-проекту индивидуальную
+                           композицию</h3>
+                     </div>
+                  </div>
+                  <div class="process__item card">
+                     <div class="card__image">
+                        <img src="./img/process/montage.png" alt="Иконка монтажника">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Поможем с монтажом
+                           в Москве, Санкт-Петербурге, Новосибирске, Томске и Белгороде</h3>
+                     </div>
+                  </div>
+                  <div class="process__item card">
+                     <div class="card__image">
+                        <img src="./img/process/delivery.png" alt="Иконка службы доставки">
+                     </div>
+                     <div class="card__content">
+                        <h3 class="card__subtitle">Для остальных городов
+                           и стран организуем доставку <span>с отслеживанием</span></h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="feedback" class="feedback">
+            <div class="feedback__container">
+               <h2 class="feedback__title title title_slider">О нас словами покупателей</h2>
+               <div class="feedback__buttons slider-buttons">
+                  <div class="feedback__btn-prev swiper-button-prev _icon-arrow-left" aria-label="Назад"></div>
+                  <div class="feedback__btn-next swiper-button-next _icon-arrow-right" aria-label="Вперед"></div>
+               </div>
+               <div class="feedback__slider swiper">
+                  <div class="feedback__wrapper swiper-wrapper">
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(0, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/1-510x950.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/1-510x950.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/1-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/1-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/1-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(1, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/2-510x950.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/2-510x950.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/2-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/2-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/2-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(2, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/3-510x950.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/3-510x950.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/3-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/3-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/3-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(3, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/4-510x950.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/4-510x950.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/4-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/4-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/4-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(4, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/5-510x950.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/5-510x950.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/5-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/5-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/5-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(5, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/6-510x950.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/6-510x950.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/6-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/6-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/6-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(6, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/7-510x950.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/7-510x950.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/7-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/7-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/7-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(7, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/8-650x1220.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/8-650x1220.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/8-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/8-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/8-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="feedback__slide swiper-slide">
+                        <div class="feedback__item">
+                           <a href="#feedback-image-popup" class="popup-link swiper-slide__image"
+                              onclick="popupFeedbackSwiper.slideTo(8, 0, false);">
+                              <picture class="feedback__image">
+                                 <source srcset="./img/feedback/9-490x920.webp" type="image/webp"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/9-490x920.jpg" type="image/jpeg"
+                                    media="(min-width:575px)">
+                                 <source srcset="./img/feedback/9-240x450.webp" type="image/webp"
+                                    media="(max-width:575px)">
+                                 <source srcset="./img/feedback/9-240x450.jpg" type="image/jpeg"
+                                    media="(max-width:575px)">
+                                 <img data-src="./img/feedback/9-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                                    alt="Отзыв покупателя, переписка в чате ватсап">
+                              </picture>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="customers" class="customers">
+            <div class="customers__container">
+               <h2 class="customers__title title title_slider">Наши клиенты</h2>
+               <div class="customers__buttons slider-buttons">
+                  <div class="customers__btn-prev swiper-button-prev _icon-arrow-left" aria-label="Назад"></div>
+                  <div class="customers__btn-next swiper-button-next _icon-arrow-right" aria-label="Вперед"></div>
+               </div>
+               <div class="customers__slider swiper">
+                  <div class="customers__wrapper swiper-wrapper">
+                     <div class="customers__slide swiper-slide">
+                        <div class="customers__item">
+                           <div class="customers__image customers__image_sber">
+                              <img src="./img/customers/sber.png" alt="Сбербанк логотип">
+                           </div>
+                           <div class="customers__image customers__image_mega">
+                              <img src="./img/customers/mega.png" alt="Мега логотип">
+                           </div>
+                           <div class="customers__image customers__image_5">
+                              <img src="./img/customers/5.png" alt="Пятерочка логотип">
+                           </div>
+                           <div class="customers__image customers__image_tanuki">
+                              <img src="./img/customers/tanuki.png" alt="Тануки логотип">
+                           </div>
+                           <div class="customers__image customers__image_ranhigs">
+                              <img src="./img/customers/ranhigs.svg" alt="РАНХиГС логотип">
+                           </div>
+                           <div class="customers__image customers__image_mailru">
+                              <img src="./img/customers/mailru.png" alt="Mail.ru логотип">
+                           </div>
+                           <div class="customers__image customers__image_vkusvill">
+                              <img src="./img/customers/vkusvill.png" alt="ВкусВилл логотип">
+                           </div>
+                           <div class="customers__image customers__image_nornicel">
+                              <img src="./img/customers/nornickel.png" alt="Норникель логотип">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="customers__slide swiper-slide">
+                        <div class="customers__item">
+                           <div class="customers__image customers__image_ikea">
+                              <img src="./img/customers/ikea.svg" alt="IKEA логотип">
+                           </div>
+                           <div class="customers__image customers__image_nike">
+                              <img src="./img/customers/nike.svg" alt="NIKE логотип">
+                           </div>
+                           <div class="customers__image customers__image_rosbiznes">
+                              <img src="./img/customers/rosbiznes.png" alt="Росбизнес логотип">
+                           </div>
+                           <div class="customers__image customers__image_adidas">
+                              <img src="./img/customers/adidas.png" alt="ADIDAS логотип">
+                           </div>
+                           <div class="customers__image customers__image_polist">
+                              <img src="./img/customers/polist.png" alt="Polist group логотип">
+                           </div>
+                           <div class="customers__image customers__image_crocus">
+                              <img src="./img/customers/crocus.png" alt="Crocus City Hall логотип">
+                           </div>
+                           <div class="customers__image customers__image_ozon customers__image_hidden">
+                              <img src="./img/customers/ozon.png" alt="Ozon логотип">
+                           </div>
+                           <div class="customers__image customers__image_mango">
+                              <img src="./img/customers/mango.png" alt="Mango Office логотип">
+                           </div>
+                           <div class="customers__image customers__image_bm">
+                              <img src="./img/customers/bm.png" alt="Бизнес Молодость логотип">
+                           </div>
+                           <div class="customers__image customers__image_skb-contur">
+                              <img src="./img/customers/skb-contur.svg" alt="СКБ Контур логотип">
+                           </div>
+                           <div class="customers__image customers__image_club-500">
+                              <img src="./img/customers/club-500.svg" alt="Клуб 500 логотип">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="customers__slide swiper-slide">
+                        <div class="customers__item">
+                           <div class="customers__image customers__image_wb">
+                              <img src="./img/customers/wb.png" alt="WB логотип">
+                           </div>
+                           <div class="customers__image customers__image_performance-food">
+                              <img src="./img/customers/performance-food.png" alt="Performance food логотип">
+                           </div>
+                           <div class="customers__image customers__image_yandex">
+                              <img src="./img/customers/yandex.png" alt="Яндекс логотип">
+                           </div>
+                           <div class="customers__image customers__image_blackwood">
+                              <img src="./img/customers/blackwood.png" alt="Blackwood логотип">
+                           </div>
+                           <div class="customers__image customers__image_m-lounge">
+                              <img src="./img/customers/m-lounge.png" alt="Мята lounge логотип">
+                           </div>
+                           <div class="customers__image customers__image_myskin">
+                              <img src="./img/customers/myskin.svg" alt="Myskin - корейская косметика логотип">
+                           </div>
+                           <div class="customers__image customers__image_fork-spoon">
+                              <img src="./img/customers/fork-spoon.png" alt="Вилка Ложка логотип">
+                           </div>
+                           <div class="customers__image customers__image_volywear">
+                              <img src="./img/customers/volywear.png" alt="ВоляWEAR логотип">
+                           </div>
+                           <div class="customers__image customers__image_ozon customers__image_visible">
+                              <img src="./img/customers/ozon.png" alt="Ozon логотип">
+                           </div>
+                           <div class="customers__image customers__image_chicken">
+                              <img src="./img/customers/chicken.svg" alt="Chicken dёner логотип">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="showroom" class="showroom">
             <div class="showroom__container">
                <div class="showroom__content">
                   <div class="showroom__adress">
@@ -29,12 +1280,634 @@
                      <div id="map" class="map__image map"></div>
                   </div>
                </div>
-               <div class="showroom__form"></div>
+               <div id="showroom__form" class="showroom__form form-box">
+                  <h3 class="form-box__title">Остались вопросы?</h3>
+                  <h4 class="form-box__subtitle">
+                     Приезжайте в наш шоурум или расскажите о задаче нашим менеджерам
+                  </h4>
+                  <form id="more-questions" class="form-box__form" method="POST" action="#">
+                     <div class="form-box__input">
+                        <input type="text" placeholder="Как к Вам обращаться?" name="name">
+                     </div>
+                     <div class="form-box__input">
+                        <input type="tel" class="form-box__phone" placeholder="Ваш телефон" name="tel" required>
+                     </div>
+                     <div class="form-box__checkbox checkbox">
+                        <label class="checkbox__label">
+                           <input type="checkbox" required name="consent-privacy-policy" class="checkbox__real-input">
+                           <span class="checkbox__custom-input"></span>
+                           <span class="checkbox__label-text checkbox__label-text_policy">Нажимая кнопку вы соглашаетесь
+                              с<a href="./policy/policy.pdf" target="_blank" rel="noopener noreferrer">Политикой
+                                 Конфиденциальности</a></span>
+                        </label>
+                     </div>
+                     <button type="submit" class="form-box__button button">Отправить</button>
+                     <p class="form-box__message">Пожалуйста, введите номер телефона в формате <span>+7 (555) 555
+                           5555</span></p>
+                  </form>
+               </div>
             </div>
          </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__logo logo">
+               <img src="./img/logo.svg" alt="Логотип компании GREENERY" class="logo__image">
+               <p class="logo__description">ИП Шиман Илья Михайлович</p>
+               <p class="logo__description"><span>ИНН 312343336879</span></p>
+               <p class="logo__description">ОГРН <span>318312300033174</span></p>
+               <a href="./policy/policy.pdf" target="_blank" rel="noopener noreferrer"
+                  class="logo__privacy-policy">Политика
+                  конфиденциальности</a>
+            </div>
+            <div class="footer__contacts contacts">
+               <a href="tel:+74994093152" class="contacts__phone">
+                  <div class="contacts__phone-icon _icon-phone"></div>
+                  <div class="contacts__phone-number">+7 (499) 409-31-52</div>
+               </a>
+               <a href="mailto:info@mygreenery.ru" class="contacts__email">
+                  <div class="contacts__email-icon _icon-email"></div>
+                  <div class="contacts__email-name">info@mygreenery.ru</div>
+               </a>
+            </div>
+            <div class="footer__socials socials">
+               <a href="http://wa.me/79684017002" target="_blank" class="socials__icon _icon-whatsapp"></a>
+               <a href="https://t.me/StenaIzMha_bot" target="_blank" class="socials__icon _icon-telegram"></a>
+               <a href="#" class="socials__icon _icon-vk"></a>
+            </div>
+         </div>
+      </footer>
+
+      <div class="popup" id="successfully-popup">
+         <div class="popup__container">
+            <div class="popup__content">
+               <a href="#products" class="popup__close close-popup"></a>
+               <div class="popup__form">
+                  <div class="popup__image">
+                     <img src="./img/popup/successfully-icon.png" alt="Иконка успешной отправки">
+                  </div>
+                  <h3 class="popup__title">Спасибо! Ваши контакты отправлены</h3>
+                  <p class="popup__text">Мы свяжемся с Вами в ближайшее время.</p>
+                  <p class="popup__text">Предлагаем ознакомиться с полным каталогом наших работ:</p>
+<<<<<<< HEAD
+                  <a href="./catalog/Catalog-GREENERY-2023.pdf" target="_blank" class="popup__button button">открыть
+=======
+                  <a href="./catalog-page.html" class="popup__button button" target="_blank">открыть
+>>>>>>> dbca3f87eeca6618fe69538662a963aae9bb42fc
+                     каталог</a>
+                  <a data-goto=".showroom__form" href="#"
+                     class="popup__return-back popup__return-back_show close-popup">Вернуться
+                     на сайт</a>
+               </div>
+               <a data-goto=".price__form" href="#" class="popup__return-back close-popup">Вернуться на сайт</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="popup" id="application-popup">
+         <div class="popup__container">
+            <div class="popup__content">
+               <a href="#products" class="popup__close close-popup"></a>
+               <div id="application__form" class="application__form form-box">
+                  <h3 class="form-box__title">Заявка</h3>
+                  <div class="form-box__body">
+                     <form id="application" class="form-box__form" method="POST" action="#">
+                        <div class="form-box__input form-box__input_changing">
+                           <input class="form-box__input-large" type="text" placeholder="Как к Вам обращаться?"
+                              name="name">
+                           <input class="form-box__input-small" type="text" placeholder="Ваше имя" name="name">
+                        </div>
+                        <div class="form-box__input">
+                           <input type="tel" class="form-box__phone" placeholder="Ваш телефон" name="tel" required>
+                        </div>
+                        <input type="hidden" id="form_name" name="fields[name_2]" value="1\3">
+                        <button type="submit" class="form-box__button button">оставить заявку</button>
+                        <p class="form-box__message">Пожалуйста, введите номер телефона в формате <span>+7 (555) 555
+                              5555</span></p>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="popup" id="feedback-image-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_image">
+               <a href="#feedback" class="popup__close close-popup"></a>
+               <div class="popup-feedback__buttons">
+                  <div class="popup-feedback__btn-prev swiper-button-prev" aria-label="Назад"></div>
+                  <div class="popup-feedback__btn-next swiper-button-next" aria-label="Вперед"></div>
+               </div>
+               <div class="popup-feedback__slider swiper">
+                  <div class="popup-feedback__wrapper swiper-wrapper">
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/1-510x950.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/1-510x950.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/1-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/1-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/1-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/2-510x950.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/2-510x950.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/2-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/2-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/2-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/3-510x950.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/3-510x950.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/3-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/3-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/3-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/4-510x950.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/4-510x950.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/4-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/4-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/4-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/5-510x950.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/5-510x950.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/5-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/5-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/5-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/6-510x950.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/6-510x950.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/6-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/6-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/6-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/7-510x950.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/7-510x950.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/7-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/7-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/7-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/8-650x1220.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/8-650x1220.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/8-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/8-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/8-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                     <div class="popup-feedback__slide swiper-slide">
+                        <picture class="popup-feedback__image">
+                           <source srcset="./img/feedback/9-490x920.webp" type="image/webp" media="(min-width:575px)">
+                           <source srcset="./img/feedback/9-490x920.jpg" type="image/jpeg" media="(min-width:575px)">
+                           <source srcset="./img/feedback/9-240x450.webp" type="image/webp" media="(max-width:575px)">
+                           <source srcset="./img/feedback/9-240x450.jpg" type="image/jpeg" media="(max-width:575px)">
+                           <img data-src="./img/feedback/9-240x450.jpg" src="./img/1x1.jpg" class="swiper-lazy"
+                              alt="Отзыв покупателя, переписка в чате ватсап">
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!------ popup-gallery *** works-popup ------>
+      <div class="popup" id="painting-forest-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/painting-forest-950x950.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-forest-950x950.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-forest.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-forest.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/painting-forest.jpg" alt="Картина «Лесная»">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="painting-wooden-backlight-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/painting-wooden-backlight-660x880.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-wooden-backlight-660x880.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-wooden-backlight.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-wooden-backlight.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/painting-wooden-backlight.jpg"
+                        alt="Картина деревянная с подсветкой">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="painting-hexagon-forest-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/painting-hexagon-forest-960x960.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-hexagon-forest-960x960.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-hexagon-forest.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-hexagon-forest.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/painting-hexagon-forest.jpg"
+                        alt="Картина «Шестиугольник лесной»">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="painting-forest-2-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/painting-forest-2-1000x1000.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-forest-2-1000x1000.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-forest-2.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-forest-2.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/painting-forest-2.jpg" alt="Картина «Лесная» №2">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="painting-5-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/painting-5-795x1000.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-5-795x1000.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-5.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/painting-5.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/painting-5.jpg" alt="Картина №5">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="popup" id="wall-performance-group-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/wall-performance-group-1024x768.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-performance-group-1024x768.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-performance-group.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-performance-group.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/wall-performance-group.jpg"
+                        alt="Стена-пано, Холдинг Perfomance Group">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="wall-mанго-telecom-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/wall-mанго-telecom-955x700.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-mанго-telecom-955x700.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-mанго-telecom.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-mанго-telecom.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/wall-mанго-telecom.jpg" alt="Стена-пано, Компания Манго-телеком">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="wall-ranhigs-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/wall-ranhigs-690x690.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-ranhigs-690x690.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-ranhigs.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-ranhigs.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/wall-ranhigs.jpg" alt="Стена-пано, Школа управления РАНХиГС">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="wall-office-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/wall-office-945x945.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-office-945x945.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-office.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-office.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/wall-office.jpg" alt="Стена-пано, офисная">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="wall-cottage-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/wall-cottage-780x780.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-cottage-780x780.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-cottage.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-cottage.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/wall-cottage.jpg" alt="Стена-пано, коттедж">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="popup" id="logo-sber-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/logo-sber-650x650.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-sber-650x650.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-sber.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-sber.jpg" type="image/jpeg" media="(max-width:575px)">
+                     <img src="./img/popup/works-image/logo-sber.jpg" alt="Логотип, Банк Сбер">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="logo-indi-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/logo-indi-985x740.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-indi-985x740.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-indi.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-indi.jpg" type="image/jpeg" media="(max-width:575px)">
+                     <img src="./img/popup/works-image/logo-indi.jpg" alt="Логотип, Сеть бьюти коворкинга INDI">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="logo-lab-space-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/logo-lab-space-560x535.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-lab-space-560x535.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-lab-space.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-lab-space.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/logo-lab-space.jpg"
+                        alt="Логотип, Сеть студий фитнеса L.A.B. Space">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="logo-hightech-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/logo-hightech-1024x768.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-hightech-1024x768.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-hightech.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-hightech.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/logo-hightech.jpg" alt="Логотип, Группа компаний Hightech">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="logo-adidas-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/logo-adidas-1150x715.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-adidas-1150x715.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-adidas.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/logo-adidas.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/logo-adidas.jpg" alt="Логотип, Компания Adidas">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="popup" id="decor-map-of-russia-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/decor-map-of-russia-660x650.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-map-of-russia-660x650.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-map-of-russia.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-map-of-russia.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/decor-map-of-russia.jpg" alt="Декор Карта России">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="phone-stand-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/phone-stand-880x880.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/phone-stand-880x880.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/phone-stand.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/phone-stand.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/phone-stand.jpg" alt="Подставка под телефон">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="wall-clock-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/wall-clock-780x780.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-clock-780x780.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-clock.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/wall-clock.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/wall-clock.jpg" alt="Часы настенные с текстом">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="decor-floating-molecule-illuminated-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/decor-floating-molecule-illuminated-775x985.webp"
+                        type="image/webp" media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-floating-molecule-illuminated-775x985.jpg"
+                        type="image/jpeg" media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-floating-molecule-illuminated.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-floating-molecule-illuminated.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/decor-floating-molecule-illuminated.jpg"
+                        alt="Декор с подсветкой Парящая молекула">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="popup" id="decor-wooden-inserts-popup">
+         <div class="popup__container">
+            <div class="popup__content popup__content_fit">
+               <a href="#tab-paintings" class="popup__close close-popup"></a>
+               <div class="popup__image">
+                  <picture>
+                     <source srcset="./img/popup/works-image/decor-wooden-inserts-660x660.webp" type="image/webp"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-wooden-inserts-660x660.jpg" type="image/jpeg"
+                        media="(min-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-wooden-inserts.webp" type="image/webp"
+                        media="(max-width:575px)">
+                     <source srcset="./img/popup/works-image/decor-wooden-inserts.jpg" type="image/jpeg"
+                        media="(max-width:575px)">
+                     <img src="./img/popup/works-image/decor-wooden-inserts.jpg" alt="Декор с деревянными вставками">
+                  </picture>
+               </div>
+            </div>
+         </div>
+      </div>
    </div>
+
+   <script src="./js/swiper-bundle.min.js"></script>
+   <script src="./js/main-swiper.js"></script>
    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
    <script src="./js/main.js"></script>
 </body>
