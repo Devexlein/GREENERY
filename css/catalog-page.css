@@ -6,7 +6,7 @@
 }
 
 .catalog-section {
-   padding: 30px 0px 15px;
+   padding: 15px 0px;
 }
 
 .catalog__container,
@@ -114,7 +114,6 @@ figure img {
    height: 130px;
 }
 
-
 .catalog-section__image_big-square {
    width: 240px;
    height: 240px;
@@ -212,10 +211,12 @@ figure img {
 
 .catalog-section__row_two-elements-right {
    grid-template-columns: 1fr 135px;
+   grid-template-rows: 330px;
 }
 
 .catalog-section__row_two-big-elements-right {
    grid-template-columns: 1fr 135px;
+   grid-template-rows: 300px;
 }
 
 .catalog-section__row_two-elements-right>figure:nth-child(1),
@@ -223,17 +224,11 @@ figure img {
    justify-self: end;
 }
 
-
 .catalog-section__row_two-elements.catalog-section__row_decor-right::after {
    left: 290px;
 }
 
 .catalog-section__row_three-elements {
-   grid-template-columns: 135px 1fr;
-   grid-template-rows: 165px 205px;
-}
-
-#logos .catalog-section__row_three-elements {
    grid-template-columns: 135px 1fr;
    grid-template-rows: 165px 205px;
 }
@@ -318,22 +313,21 @@ figure img {
 
    .catalog-section__row_two-elements {
       grid-template-columns: 130px 130px;
+      grid-template-rows: 350px;
    }
 
    .catalog-section__row_two-big-elements {
       grid-template-columns: 150px 150px;
+      grid-template-rows: 350px;
    }
 
    .catalog-section__row_two-elements-right {
       grid-template-columns: 1fr 130px;
+      grid-template-rows: 350px;
    }
 
    .catalog-section__row_two-big-elements-right {
       grid-template-columns: 1fr 150px;
-   }
-
-   .catalog-section__row_two-elements,
-   .catalog-section__row_two-big-elements {
       grid-template-rows: 350px;
    }
 
@@ -342,22 +336,12 @@ figure img {
       grid-template-rows: 185px 225px;
    }
 
-   #logos .catalog-section__row_three-elements {
-      grid-template-columns: 150px 1fr;
-      grid-template-rows: 185px 225px;
-   }
-
-   /* #logos .catalog-section__container>:last-child {
-      grid-template-rows: 325px;
-   } */
-
    .catalog-section__row_three-elements-right {
       grid-template-columns: 1fr 150px;
       grid-template-rows: 185px 225px;
    }
 
    .catalog-section__row_four-elements {
-      grid-template-columns: 1fr repeat(2, minmax(auto, 150px));
       grid-template-rows: 185px 225px;
    }
 }
@@ -397,43 +381,27 @@ figure img {
 
    .catalog-section__row_two-elements {
       grid-template-columns: 150px 150px;
+      grid-template-rows: 400px;
    }
 
    .catalog-section__row_two-big-elements {
       grid-template-columns: 180px 180px;
+      grid-template-rows: 400px;
    }
 
    .catalog-section__row_two-elements-right {
       grid-template-columns: 1fr 150px;
+      grid-template-rows: 400px;
    }
 
    .catalog-section__row_two-big-elements-right {
       grid-template-columns: 1fr 180px;
-   }
-
-   .catalog-section__row_two-elements,
-   .catalog-section__row_two-big-elements {
       grid-template-rows: 400px;
-   }
-
-   .catalog-section__row_three-elements,
-   .catalog-section__row_three-elements-right,
-   #logos .catalog-section__row_three-elements {
-      grid-template-rows: 165px 215px;
    }
 
    .catalog-section__row_three-elements {
       grid-template-columns: minmax(auto, 180px) 1fr;
       grid-template-rows: 165px 225px;
-   }
-
-   #logos .catalog-section__row_three-elements {
-      grid-template-columns: minmax(auto, 180px) 1fr;
-      grid-template-rows: 165px 225px;
-   }
-
-   #logos .catalog-section__container>:last-child {
-      grid-template-rows: 325px;
    }
 
    .catalog-section__row_three-elements-right {
@@ -480,11 +448,17 @@ figure img {
 
    .catalog-section__row_two-big-elements-right {
       grid-template-columns: 1fr 200px;
+      grid-template-rows: 450px;
    }
 
    .catalog-section__row_three-elements {
       grid-template-columns: 200px 1fr;
       grid-template-rows: 200px 225px;
+   }
+
+   .catalog-section__row_three-elements-right {
+      grid-template-columns: 1fr 200px;
+      grid-template-rows: 200px 250px;
    }
 
    #logos .catalog-section__row_three-elements {
@@ -494,11 +468,6 @@ figure img {
 
    #logos .catalog-section__container>:last-child {
       margin-top: -25px;
-   }
-
-   .catalog-section__row_three-elements-right {
-      grid-template-columns: 1fr 200px;
-      grid-template-rows: 200px 250px;
    }
 
    .catalog-section__row_four-elements {
@@ -527,6 +496,9 @@ figure img {
       left: 350px;
    }
 
+   #logos .catalog-section__container>:last-child {
+      grid-template-rows: 350px;
+   }
 }
 
 @media (min-width: 575.98px) {

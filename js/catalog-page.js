@@ -15,7 +15,7 @@ if (catalogAnchors.length > 0) {
 
          const gotoBlock = document.querySelector(anchor.dataset.goto);
          // учитываем высоту шапки
-         const gotoBlockValue = gotoBlock.getBoundingClientRect().top + window.pageYOffset - document.querySelector('.catalog__head').offsetHeight + 50;
+         const gotoBlockValue = gotoBlock.getBoundingClientRect().top + window.pageYOffset - document.querySelector('.catalog__head').offsetHeight + 100;
 
          window.scrollTo({
             top: gotoBlockValue,
