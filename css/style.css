@@ -686,13 +686,17 @@ textarea:focus:-ms-input-placeholder {
    width: 100%;
 }
 
+.my-marker {
+   position: relative;
+   width: 70px;
+   height: 70px;
+   transform: translate(-50%, calc(-50% - 30px));
+   cursor: pointer;
+}
+
 .ymaps-2-1-79-gototech {
    display: none !important;
 }
-
-/* [class*="copyrights-pane"] {
-   display: none;
-} */
 
 /* --- slider ---- */
 .swiper-button-prev::after,

@@ -88,34 +88,32 @@ if (anchors.length > 0) {
 }
 
 /*  подключение карты  */
-let center = [55.72321706901226, 37.703181999999984];
-
-function init() {
-   let map = new ymaps.Map('map', {
-      center: center,
+main();
+async function main() {
+   var map = null;
+   await ymaps3.ready;
+   const { YMap, YMapDefaultSchemeLayer, YMapControls, YMapDefaultFeaturesLayer, YMapMarker } = ymaps3;
+   const LOCATION = {
+      center: [37.703181999999984, 55.72321706901226],
       zoom: 17
-   });
+   };
 
-   let placemark = new ymaps.Placemark(center, {}, {
-      iconLayout: "default#image",
-      iconImageHref: './img/showroom/location-map.png',
-      iconImageSize: [50, 50],
-      iconImageOffset: [-17, -40],
-   });
+   const { YMapZoomControl } = await ymaps3.import(
+      "@yandex/ymaps3-controls@0.0.1"
+   );
 
-   map.controls.remove('geolocationControl'); // удаляем геолокацию
-   map.controls.remove('searchControl'); // удаляем поиск
-   map.controls.remove('trafficControl'); // удаляем контроль трафика
-   map.controls.remove('typeSelector'); // удаляем тип
-   // map.controls.remove('fullscreenControl'); // удаляем кнопку перехода в полноэкранный режим
-   // map.controls.remove('zoomControl'); // удаляем контрол зуммирования
-   map.controls.remove('rulerControl'); // удаляем контрол правил
-   // map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
+   map = new YMap(document.getElementById("map"), { location: LOCATION }, [
+      new YMapDefaultSchemeLayer(),
+      new YMapControls({ position: "right" }, [new YMapZoomControl({})])
+   ]);
 
-   map.geoObjects.add(placemark);
+   map.addChild(new YMapDefaultFeaturesLayer());
+
+   const el = document.createElement('img');
+   el.className = 'my-marker';
+   el.src = '../img/showroom/location-map.png';
+   map.addChild(new YMapMarker({ coordinates: LOCATION.center }, el));
 }
-
-ymaps.ready(init);
 
 
 /*  попапы  */
