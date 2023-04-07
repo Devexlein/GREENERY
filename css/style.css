@@ -1734,6 +1734,11 @@ textarea:focus:-ms-input-placeholder {
 }
 
 @media (max-width: 350.98px) {
+   .logo__description {
+      font-size: 12.5px;
+      max-width: 180px;
+   }
+
    .contacts {
       padding-left: 11%;
    }
@@ -2646,6 +2651,20 @@ textarea:focus:-ms-input-placeholder {
    .price__form .form-box__input,
    .form-box__wrap {
       width: 275px;
+   }
+}
+
+@media (max-width: 335.98px) {
+
+   .price__form .form-box__input_wide textarea,
+   .price__form .form-box__form,
+   .price__form .form-box__input_wide input[type="text"],
+   .form-box__wrap {
+      width: 255px;
+   }
+
+   .form-box__wrap .form-box__input>* {
+      max-width: 125px;
    }
 }
 
