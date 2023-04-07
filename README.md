@@ -12,6 +12,8 @@
 Изображения оптимизированы с учетом современных форматов, подключены набор фавиконов для всех браузеров
 и микроразметка Open Graph.
 
+Ссылка на верстку: https://devexlein.github.io/greenery/
+
 Действующий сайт: 
 https://greenery-moss.ru/
 https://mygreenery.ru/
